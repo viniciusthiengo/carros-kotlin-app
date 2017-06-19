@@ -19,8 +19,7 @@ class CarrosActivity : AppCompatActivity() {
         setContentView(R.layout.activity_carros)
 
         carros.addAll(
-            savedInstanceState?.getParcelableArrayList(
-                Carro.Companion.CARRO) ?: Mock().gerarCarro(resources)
+            savedInstanceState?.getParcelableArrayList(Carro.Companion.CARRO) ?: Mock().gerarCarro(resources)
         )
 
         initRecycler()

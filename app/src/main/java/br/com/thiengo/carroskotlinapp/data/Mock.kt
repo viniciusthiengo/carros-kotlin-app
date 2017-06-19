@@ -53,6 +53,7 @@ class Mock {
 
 
     fun gerarCarro( resources: Resources ) : List<Carro> {
+
         val carros = listOf(
             Carro(
                 "Impala",

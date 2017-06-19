@@ -26,7 +26,7 @@ class Carro(
     }
 
     companion object {
-        val CARRO = "carros"
+        @JvmField val CARRO = "carros"
 
         @JvmField val CREATOR: Parcelable.Creator<Carro> = object : Parcelable.Creator<Carro> {override fun createFromParcel(source: Parcel): Carro = Carro(source)
         override fun newArray(size: Int): Array<Carro?> =arrayOfNulls(size)}

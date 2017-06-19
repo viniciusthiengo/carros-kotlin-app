@@ -6,7 +6,7 @@ import android.os.Parcelable
 /**
  * Created by viniciusthiengo on 19/06/17.
  */
-data class Acessorio(
+data class Acessorio (
         val name: String,
         val preco: Float ) : Parcelable {
 
