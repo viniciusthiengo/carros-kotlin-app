@@ -3,9 +3,6 @@ package br.com.thiengo.carroskotlinapp.domain
 import android.os.Parcel
 import android.os.Parcelable
 
-/**
- * Created by viniciusthiengo on 19/06/17.
- */
 class Marca(val nome: String, val logo: Int) : Parcelable {
     companion object {
         @JvmField val CREATOR: Parcelable.Creator<Marca> = object : Parcelable.Creator<Marca> {

@@ -3,9 +3,6 @@ package br.com.thiengo.carroskotlinapp.domain
 import android.os.Parcel
 import android.os.Parcelable
 
-/**
- * Created by viniciusthiengo on 19/06/17.
- */
 data class Acessorio (
         val name: String,
         val preco: Float ) : Parcelable {
