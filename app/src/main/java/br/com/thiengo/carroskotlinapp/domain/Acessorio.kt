@@ -4,8 +4,9 @@ import android.os.Parcel
 import android.os.Parcelable
 
 data class Acessorio (
-        val name: String,
+        val nome: String,
         val preco: Float ) : Parcelable {
+
 
     companion object {
         @JvmField val CREATOR: Parcelable.Creator<Acessorio> = object : Parcelable.Creator<Acessorio> {
@@ -22,7 +23,7 @@ data class Acessorio (
     override fun describeContents() = 0
 
     override fun writeToParcel(dest: Parcel, flags: Int) {
-        dest.writeString(name)
+        dest.writeString(nome)
         dest.writeFloat(preco)
     }
 }

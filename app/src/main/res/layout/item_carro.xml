@@ -57,6 +57,7 @@
         android:layout_alignStart="@+id/tv_modelo"
         android:layout_below="@+id/iv_logo"
         android:layout_marginTop="6dp"
+        android:bufferType="spannable"
         android:textSize="13sp" />
 
     <TextView

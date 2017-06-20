@@ -58,7 +58,7 @@ class CarrosAdapter(private val context: Context, private val carros: List<Carro
             ivLogo.setImageResource(carro.marca.logo)
             tvMarca.text = "${carro.marca.nome} - ${carro.ano}"
             tvMotor.text = "Motor: ".bold().append( "${carro.motor.modelo} (${carro.motor.cilindros}) - ${carro.motor.marca}" )
-            tvAcessorios.text = "Acessórios: ".bold().append(carro.getAcessoriosFormatted())
+            tvAcessorios.text = "Acessórios: ".bold().append( carro.getAcessoriosFormatted() )
             tvPreco.text = carro.preco.getPrecoHumam()
         }
     }

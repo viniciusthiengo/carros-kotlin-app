@@ -19,7 +19,7 @@ class CarrosActivity : AppCompatActivity() {
         setContentView(R.layout.activity_carros)
 
         carros.addAll(
-            savedInstanceState?.getParcelableArrayList(Carro.Companion.CARRO) ?: Mock().gerarCarro(resources)
+            savedInstanceState?.getParcelableArrayList(Carro.Companion.CARROS) ?: Mock().gerarCarro(resources)
         )
 
         initRecycler()
@@ -41,7 +41,7 @@ class CarrosActivity : AppCompatActivity() {
     }
 
     override fun onSaveInstanceState(outState: Bundle?) {
-        outState?.putParcelableArrayList( Carro.Companion.CARRO, carros )
+        outState?.putParcelableArrayList( Carro.Companion.CARROS, carros )
         super.onSaveInstanceState(outState)
     }
 }

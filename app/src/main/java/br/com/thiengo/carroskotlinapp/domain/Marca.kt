@@ -3,7 +3,10 @@ package br.com.thiengo.carroskotlinapp.domain
 import android.os.Parcel
 import android.os.Parcelable
 
-class Marca(val nome: String, val logo: Int) : Parcelable {
+class Marca(
+        val nome: String,
+        val logo: Int) : Parcelable {
+
     companion object {
         @JvmField val CREATOR: Parcelable.Creator<Marca> = object : Parcelable.Creator<Marca> {
             override fun createFromParcel(source: Parcel): Marca = Marca(source)
