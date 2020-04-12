@@ -6,7 +6,7 @@ Artigo que discute em detalhes como utilizar os operadores `in` e `?:` (Elvis) e
 
 <img src="https://www.thiengo.com.br/img/post/normal/dag5buvvtta3st05b2pulmd555f692c9b38c02567c4872bca36b5cdc69.jpg" width="600" alt="Aplicativo Android de carros">
 
-O conteúdo do artigo também está disponível em [vídeos](https://www.thiengo.com.br/como-utilizar-os-operadores-in-e-elvis-e-a-api-parcelable-no-kotlin-android#title-16).
+O conteúdo do artigo também está disponível em [vídeo](https://www.thiengo.com.br/como-utilizar-os-operadores-in-e-elvis-e-a-api-parcelable-no-kotlin-android#title-16).
 
 ### Segunda parte
 
